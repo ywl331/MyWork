@@ -1,0 +1,157 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+.box1{
+	height: 700px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: url(img/ia_100000001.jpg) no-repeat 0px center/cover;
+}
+.box1:after{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0,0,0,0.4);
+}
+.box1-con{
+	color: #999077;
+	position: relative;
+	z-index: 1;
+	width: 800px;
+	text-align: center;
+}
+.box1-con h1{
+	font-size: 60px;
+	font-weight: 500;
+}
+.box1-con a{
+	display: block;
+	width: 178px;
+	height: 60px;
+	border: solid 1px #999077;
+	text-align: center;
+	line-height: 60px;
+	color: #999077;
+	margin: 40px auto 0;
+}
+.box2{
+	padding: 100px 0;
+	background: #b8ac8e;
+	
+}
+.box2-con{
+	width: 70%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.box2-con>div{
+	width: 48%;
+	position: relative;
+}
+.box2-con>div img{
+	display: block;
+	width: 100%;
+}
+.box2-info{
+	position: absolute;
+	top: 50%;
+	margin-top: -97px;
+	left: 5%;
+	width: 90%;
+	text-align: center;
+}
+.box2-info b{
+	color: #ccc;
+}
+.box2-info h3{
+	color:#b8ac8e ;
+	padding: 20px 0px;
+}
+.box2-info p{
+	color: #b8ac8e;
+	font-size: 13px;
+	margin-top: 10px;
+	text-align: left;
+}
+.box2-info span{
+	margin-right: 10px;
+}
+.box2-ft{
+	text-align: center;
+	margin-top: 140px;
+}
+.box2-ft h3{
+	margin: 10px 0px;
+}
+.box2-ft div i{
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	margin: 0px 5px;
+	background: url(img/ia_100000007.png) 0px -96px;
+}
+.box2-ft div i:nth-child(2){
+	background: url(img/ia_100000007.png) -24px -96px;
+}
+.box2-ft div i:nth-child(3){
+	background: url(img/ia_100000007.png) -48px -96px;
+}
+.box2-ft div i:nth-child(4){
+	background: url(img/ia_100000007.png) -120px -96px;
+}
+.box3{
+	height: 360px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: url(img/ia_100000008.jpg) no-repeat 0px center/cover;
+}
+.box3:after{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0,0,0,0.4);
+}
+.box3 p{
+	color: white;
+}
+@media screen  and (max-width: 640px) {
+	.box1-con h1 {
+	    font-size: 40px;
+	    font-weight: 500;
+	}
+	.box2-con {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+.box2{
+	padding: 0;
+}
+.box2-con>div {
+    width: 100%;
+    position: relative;
+}
+.box2-ft {
+    text-align: center;
+    margin-top: 0px;
+    padding: 40px 0;
+}
+.box3 {
+    height: 100px;
+}
+}
